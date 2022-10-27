@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.img_present {
+    background-color: #4169e1;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid aliceblue;
+
+}
+h1 {
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 22px;
+}
+h2 {
+    color: black;
+    font-weight: 100;
+    font-size: 40px;
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+header a:hover {
+    color: #4169e1;
+}
+.caja {
+    padding: 80px 20% 80px 20%;
+}
+hr {
+    width:10%;
+    height: 4px;
+    border: none;
+    background-color: #4169e1;
+    margin-top: -10px;
+}
+.cajacontacto {
+    background-color: darkslategray;
+    padding: 80px 20% 80px 20%;
+
+}
+
+.formu {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+#boton {
+    background-color: #4169e1;
+    margin: 0 10px 0 10px;
+    border: none;
+}
+::placeholder {
+    color: rgba(167, 167, 167, 0.308);
+  }
+
+#boton:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
